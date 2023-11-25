@@ -73,3 +73,55 @@ button{
     background-color: #3882F6;
     color: #F9FAF8;
 }
+.box2{
+    margin:24px 0;
+}
+.information{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+.pictures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 32px;
+    margin: 36px 0;
+}
+.pic{
+    border: 2px solid #3882F6;
+    width: 128px;
+    height: 128px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+.div{
+    width: 132px;
+}
+
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+.box3-content{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    color: #1F2937;
+    font-style:italic;
+    font-size: 36px;
+    margin-top: 52px;
+    
+}
+
+.citation{
+    align-self: flex-end;
+    font-style:normal;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+}
