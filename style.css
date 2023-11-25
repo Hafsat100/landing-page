@@ -52,7 +52,6 @@ body{
     color: #E5E7EB;
     margin: 0 0 8px 0;
 }
-
 .placeholder{
     background-color: #E5E7EB;
     flex-basis: 50%;
@@ -89,7 +88,6 @@ button{
     text-align: center;
     gap: 40px;
     margin: 36px 0;
-    
 }
 .pic{
     border: 2px solid #3882F6;
@@ -117,7 +115,6 @@ button{
     font-size: 36px;
     margin-top: 52px;
 }
-
 .citation{
     align-self: flex-end;
     font-style:normal;
@@ -129,7 +126,6 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .box4-content{
     display: flex;
@@ -141,7 +137,6 @@ button{
     padding: 8px 4px;
     border-radius: 4px;
     color: #F9FAF8;
-    
 }
 .action-btn{
     background-color: #3882F6;
