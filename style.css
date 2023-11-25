@@ -1,24 +1,75 @@
+
 body{
     display: flex;
     flex-direction: column;
     flex: 1;
     margin: 0;
 }
+.box{
+    padding: 0 152px;
+}
 .box1{
-    background-color: blue
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 .header{
     display: flex;
+    justify-content: space-between;
+    margin-top: 20px
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 .header ul{
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
+    gap: 20px;
 }
 .header a{
     text-decoration: none;
-    color: black;
-    
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-content{
+    display: flex;
+    margin: 60px 0;
+    margin-bottom: 72px;
+}
+.website{
+    flex-basis: 50%;
+    padding-right: 32px;
+}
+.website h1{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0;
+}
+.website p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0 0 8px 0;
+}
 
+.placeholder{
+    background-color: #E5E7EB;
+    flex-basis: 50%;
+    margin-top: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 80px;
+    height: 24px;
+    border-radius: 4px;
+    border: black;
+    font-size: 12px;
+    font-weight: 700;
+}
+.web-btn{
+    background-color: #3882F6;
+    color: #F9FAF8;
 }
