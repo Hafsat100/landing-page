@@ -162,7 +162,7 @@ button{
     color: #E5E7EB;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
         body{
             min-width: 100vw;
             display: flex;
