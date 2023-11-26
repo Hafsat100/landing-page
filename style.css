@@ -237,7 +237,8 @@ button{
         }
         .pictures{
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
+            /* flex-direction: column; */
             justify-content: center;
             align-items: center;
             text-align: center;
